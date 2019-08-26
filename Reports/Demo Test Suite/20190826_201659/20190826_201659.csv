@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo Test Suite,Chrome 76.0.3809.100,,2019-08-26 20:17:05,2019-08-26 20:28:24,11m - 18.776s,FAILED
+,,,,,,
+Test Cases/Verify Login,Chrome 76.0.3809.100,,2019-08-26 20:17:05,2019-08-26 20:17:32,26.566s,PASSED
+closeBrowser(),Chrome 76.0.3809.100,,2019-08-26 20:17:06,2019-08-26 20:17:07,0.809s,PASSED
+deleteAllCookies(),Chrome 76.0.3809.100,,2019-08-26 20:17:07,2019-08-26 20:17:07,0.090s,PASSED
+"openBrowser("""")",Chrome 76.0.3809.100,,2019-08-26 20:17:07,2019-08-26 20:17:21,13.737s,PASSED
+"navigateToUrl(""google.com"")",Chrome 76.0.3809.100,,2019-08-26 20:17:21,2019-08-26 20:17:31,10.043s,PASSED
+today = new java.util.Date(),Chrome 76.0.3809.100,,2019-08-26 20:17:31,2019-08-26 20:17:31,0.017s,PASSED
+"todaysDate = today.format(""MM_dd_yy"")",Chrome 76.0.3809.100,,2019-08-26 20:17:31,2019-08-26 20:17:31,0.008s,PASSED
+"nowTime = today.format(""hh_mm_ss"")",Chrome 76.0.3809.100,,2019-08-26 20:17:31,2019-08-26 20:17:31,0.002s,PASSED
+"takeScreenshot(""D:/Katalon/screenshot/image_"" + todaysDate + ""-"" + nowTime + "".PNG"")",Chrome 76.0.3809.100,,2019-08-26 20:17:31,2019-08-26 20:17:32,0.938s,PASSED
+,,,,,,
+Test Cases/VerifyBrokenLinks_Fail_Scenario,Chrome 76.0.3809.100,,2019-08-26 20:17:32,2019-08-26 20:18:57,1m - 25.376s,FAILED
+"openBrowser("""")",Chrome 76.0.3809.100,,2019-08-26 20:17:32,2019-08-26 20:17:41,8.342s,PASSED
+"navigateToUrl(""www.deadlinkcity.com"")",Chrome 76.0.3809.100,,2019-08-26 20:17:41,2019-08-26 20:17:46,5.262s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 76.0.3809.100,,2019-08-26 20:17:46,2019-08-26 20:17:47,1.298s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 76.0.3809.100,,2019-08-26 20:17:47,2019-08-26 20:18:57,1m - 10.042s,FAILED
+,,,,,,
+Test Cases/VerifyBrokenLinks_Pass_Scenario,Chrome 76.0.3809.100,,2019-08-26 20:18:57,2019-08-26 20:28:22,9m - 25.058s,PASSED
+"openBrowser("""")",Chrome 76.0.3809.100,,2019-08-26 20:18:58,2019-08-26 20:19:06,7.972s,PASSED
+"navigateToUrl(""https://www.api.org/"")",Chrome 76.0.3809.100,,2019-08-26 20:19:06,2019-08-26 20:19:22,16.001s,PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 76.0.3809.100,,2019-08-26 20:19:22,2019-08-26 20:19:28,6.758s,PASSED
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 76.0.3809.100,,2019-08-26 20:19:28,2019-08-26 20:28:22,8m - 53.114s,PASSED
+today = new java.util.Date(),Chrome 76.0.3809.100,,2019-08-26 20:28:22,2019-08-26 20:28:22,0.002s,PASSED
+"todaysDate = today.format(""MM_dd_yy"")",Chrome 76.0.3809.100,,2019-08-26 20:28:22,2019-08-26 20:28:22,0.006s,PASSED
+"nowTime = today.format(""hh_mm_ss"")",Chrome 76.0.3809.100,,2019-08-26 20:28:22,2019-08-26 20:28:22,0.003s,PASSED
+"takeScreenshot(""D:/Katalon/screenshot/image_"" + todaysDate + ""-"" + nowTime + "".PNG"")",Chrome 76.0.3809.100,,2019-08-26 20:28:22,2019-08-26 20:28:22,0.798s,PASSED
